@@ -1,0 +1,138 @@
+@media screen and (max-width: 980px) {
+    .top-nav-box {
+        padding: 0 15px;
+    }
+    .top-nav-item {
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 900px) {
+    .top-nav {
+        display: none;
+    }
+    .burger-menu {
+        display: block;
+    }
+    .container {
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        transition: margin 1s;
+    }
+    .container.margin-left {
+        margin-left: 250px;
+        margin-right: -250px;
+        transition: margin 1s;
+    }
+    .col-sm-2 {
+        width: 50%;
+    }
+    .h2 {
+        font-size: 30px;
+    }
+    .h4 {
+        font-size: 20px;
+    }
+    .inline-item-img {
+        margin-bottom: 45px;
+    }
+    .main .container {
+        padding-bottom: 50px;
+    }
+    .bg-container .h2 {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    .item-holder {
+        min-height: 250px;
+        padding-bottom: 10px;
+    }
+    .item-holder .h4 {
+        margin-top: 0;
+    }
+    .plan-section {
+        padding-bottom: 25px;
+    }
+    .button-main {
+        max-width: 170px;
+    }
+    .reviews .h2 {
+        margin-top: 70px;
+    }
+    .reviews .container {
+        padding-bottom: 55px;
+    }
+    .posts .h2 {
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+    .post {
+        padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 490px) {
+    .header .container {
+        padding: 5px 15px;
+    }
+    .login-button {
+        display: none;
+    }
+    .burger-menu {
+        margin-left: 0;
+    }
+    .header-form {
+        padding: 24px 0 105px 0;
+    }
+    .h1 {
+        margin: 50px auto 8px auto;
+        max-width: 260px;
+        font-size: 24px;
+    }
+    .header-description {
+        max-width: 210px;
+        font-size: 15px;
+    }
+    .button-form,
+    .city-input {
+        padding: 18px 20px;
+    }
+    .button-form {
+        position: relative;
+        width: 68px;
+        padding: 26px 0;
+        font-size: 0;
+    }
+    .arrow {
+        content: '';
+        position: absolute;
+        transform: rotate(45deg);
+        top: 217px;
+        right: 45px;
+        display: block;
+        height: 15px;
+        width: 15px;
+        border-top: 2px solid #fff;
+        border-right: 2px solid #fff;
+    }
+    .city-input {
+        padding-left: 40px;
+        width: calc(100% - 130px);
+    }
+    .arrow-to-right {
+        display: block;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .col-xs-1 {
+        width: 100%;
+    }
+    .col-xs-none {
+        display: none;
+    }
+}
