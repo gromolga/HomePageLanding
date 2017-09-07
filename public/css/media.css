@@ -71,6 +71,11 @@
         padding-bottom: 60px;
     }
 }
+@media screen and (max-width: 700px) {
+    .col-xs-none {
+        display: none;
+    }
+}
 @media screen and (max-width: 490px) {
     .header .container {
         padding: 5px 15px;
@@ -131,8 +136,5 @@
     }
     .col-xs-1 {
         width: 100%;
-    }
-    .col-xs-none {
-        display: none;
     }
 }
