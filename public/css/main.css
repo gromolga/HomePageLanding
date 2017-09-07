@@ -39,10 +39,16 @@ body{
     margin: auto;
     max-width: 215px;
     background-color: #7dac3f;
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
 }
 .button-main:hover {
     background-color: #808000;
+    -webkit-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
     transition: background-color 0.3s;
 }
 .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -95,8 +101,6 @@ body{
 .header {
     position: relative;
     overflow: hidden;
-    /*background-color: brown;*/
-    /*background-image: linear-gradient(45deg, red, yellow);*/
 }
 .header:after {
     content: '';
@@ -137,6 +141,8 @@ body{
 }
 .top-nav {
     float: right;
+    width: -webkit-calc(100% - 325px);
+    width: -moz-calc(100% - 325px);
     width: calc(100% - 325px);
 }
 .top-nav-box {
@@ -152,10 +158,16 @@ body{
     line-height: 3.5;
     text-decoration: none;
     color: #fff;
+    -webkit-transition: text-shadow 0.3s;
+    -o-transition: text-shadow 0.3s;
+    -moz-transition: text-shadow 0.3s;
     transition: text-shadow 0.3s;
 }
 .top-nav-link:hover {
     text-shadow:5px 5px 6px #000000;
+    -webkit-transition: text-shadow 0.3s;
+    -o-transition: text-shadow 0.3s;
+    -moz-transition: text-shadow 0.3s;
     transition: text-shadow 0.3s;
 }
 .burger-menu {
@@ -204,11 +216,17 @@ body{
     bottom: 0;
     z-index: 10001;
     width: 250px;
+    -webkit-transition: left 1s;
+    -o-transition: left 1s;
+    -moz-transition: left 1s;
     transition: left 1s;
     background-color: #323232;
 }
 .burger-navigation.show {
     left: 0;
+    -webkit-transition: left 1s;
+    -o-transition: left 1s;
+    -moz-transition: left 1s;
     transition: left 1s;
 }
 .burger-close {
@@ -226,6 +244,9 @@ body{
     left: 0;
     width: 100%;
     height: 10%;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
     transform: rotate(45deg);
     background-color: #bc996f;
 }
@@ -235,6 +256,9 @@ body{
     bottom: 0;
     height: 100%;
     width: 100%;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
     transform: rotate(-90deg);
     background-color: #bc996f;
 }
@@ -282,12 +306,14 @@ body{
     outline: none;
 }
 .city-input {
+    width: -webkit-calc(100% - 260px);
+    width: -moz-calc(100% - 260px);
     width: calc(100% - 260px);
     padding: 20px 10px 20px 40px;
     border: none;
     border-radius: 10px 0 0 10px;
     background-image: url(../images/google-map.svg);
-    -webkit-background-size: contain;
+    -webkit-background-size: 20px auto;
     background-size: 20px auto;
     background-position: 10px center;
     background-repeat: no-repeat;
@@ -305,6 +331,9 @@ body{
     overflow: hidden;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     z-index: -1;
     margin: 0 auto;
@@ -315,6 +344,9 @@ body{
     position: absolute;
     bottom: -5px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 .anchor:before {
@@ -339,6 +371,9 @@ body{
     position: absolute;
     top: -20px;
     left: 50%;
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -o-transform: translate(-50%);
     transform: translate(-50%);
 }
 .arrow-to-down:hover {
@@ -362,6 +397,8 @@ body{
 }
 .inline-block-item {
     display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     vertical-align: top;
     font-size: 16px;
@@ -427,6 +464,9 @@ body{
     text-align: left;
 }
 .stars .star-icon {
+    -webkit-transform: scale(0.8, 0.7);
+    -moz-transform: scale(0.8, 0.7);
+    -o-transform: scale(0.8, 0.7);
     transform: scale(0.8, 0.7);
 }
 .star-icon polygon {
@@ -497,6 +537,9 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     height: 100%;
     border-radius: 10px;
